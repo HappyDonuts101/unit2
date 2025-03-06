@@ -22,10 +22,10 @@ void setup() { //===============================================
   fg2 = 400;
   fg3 = 800;
   
-  // Initialize moon position
+ 
   moon = 700;
   
-  // Initialize car positions
+ 
   car1 = 200;
   car2 = 600;
   
@@ -59,7 +59,7 @@ void draw() { //================================================
   star4X = star4X - 1;
   star5X = star5X - 1;
 
-  // Reset stars when they move off-screen
+  
   if (star1X < 0) star1X = 800;
   if (star2X < 0) star2X = 800;
   if (star3X < 0) star3X = 800;
@@ -78,7 +78,7 @@ void draw() { //================================================
   ellipse(620, 30, 3, 3);
   ellipse(580, 70, 3, 3);
   
-  // Background buildings (slower)
+  // Background buildings 
   fill(50, 50, 80);
   rect(bg1, 200, 200, 400);
   rect(bg2, 220, 220, 380);
