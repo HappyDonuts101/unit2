@@ -84,7 +84,7 @@ void draw() { //================================================
   rect(bg2, 220, 220, 380);
   rect(bg3, 210, 180, 390);
   
-  // Windows on background buildings (
+  // Windows on background buildings 
   // Building 1 windows
   rect(bg1 + 30, 220, 10, 20);
   rect(bg1 + 60, 220, 10, 20);
@@ -146,7 +146,7 @@ void draw() { //================================================
   if (bg2 < -220) bg2 = 800;
   if (bg3 < -180) bg3 = 800;
   
-  // Foreground buildings (faster movement)
+  // Foreground buildings 
   fill(80, 80, 120);
   rect(fg1, 250, 200, 350);
   rect(fg2, 270, 220, 330);
